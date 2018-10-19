@@ -1,0 +1,40 @@
+@import '../../styles/variables';
+
+.History__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+
+  .History__dayContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 2em;
+
+    .History__dayContainerDate {
+      margin-bottom: 0.3em;
+    }
+    .History__categoryContainer {
+      display: flex;
+      color: $red;
+
+      .History__categoryContainerCategory {
+        margin-right: 1em;
+      }
+      .History__categoryContainerStatus {
+        .History__goodIcon {
+          color: $green;
+        }
+        .History__badIcon {
+          color: $red;
+        }
+      }
+
+      &.History__categoryContainer--good {
+        color: $green;
+      }
+    }
+  }
+}

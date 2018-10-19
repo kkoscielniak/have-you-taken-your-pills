@@ -1,0 +1,36 @@
+@import '../../styles/variables.scss';
+
+.PillButton__container {
+  margin: 1em 0;
+  .ant-btn-primary {
+    background-color: $green;
+    border-color: $green;
+
+    &:focus, &:hover {
+      background-color: $green;
+      border-color: $green;
+    }
+    // doesn't look good on touch devices
+    //&:hover {
+    //  background-color: #6cb16e;
+    //  border-color: #6cb16e;
+    //}
+  }
+
+  .ant-btn-danger {
+    color: #fff;
+    background-color: $red;
+    border-color: $red;
+
+    &:focus, &:hover {
+      color: #fff;
+      background-color: $red;
+      border-color: $red;
+    }
+    // doesn't look good on touch devices
+    //&:hover {
+    //  background-color: #fd8081;
+    //  border-color: #fd8081;
+    //}
+  }
+}
