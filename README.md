@@ -1,6 +1,7 @@
 # Have you taken your pills?
 > Simple PWA app that helps you to remember about your daily pills ;)
 
+![./demo.gif]
 
 ## Available Scripts
 Project scaffolded using create-react-app so scripts are available via react-scripts:
