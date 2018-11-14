@@ -6,6 +6,11 @@
 ## Adding to the home page
 After opening the app in mobile chrome you can choose the "Add to Home screen" option from Chrome menu to add app Icon to the home screen and use the app offline.
 
+## Docker
+To run the app in docker (you need [docker installed](https://docs.docker.com/install/), obviously):
+`docker run -p 1234:80 -d sigmification/pills`
+Where 1234 is a port you want to access the app on.
+
 ## Available Scripts
 Project scaffolded using create-react-app so scripts are available via react-scripts:
 

@@ -8,4 +8,4 @@ COPY ./build .
 
 EXPOSE 5001
 
-CMD ["serve", "-l", "5001", "-s", "."]
+CMD ["serve", "-l", "80", "-s", "."]
