@@ -1,7 +1,7 @@
 # Have you taken your pills?
 > Simple PWA app that helps you to remember about your daily pills ;)
 
-![./demo.gif]
+![demo](demo.gif)
 
 ## Adding to the home page
 After opening the app in mobile chrome you can choose the "Add to Home screen" option from Chrome menu to add app Icon to the home screen and use the app offline.
