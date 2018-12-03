@@ -4,6 +4,8 @@ import HomePage from '../../pages/HomePage';
 import HistoryPage from '../../pages/HistoryPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import AddToHomescreen from 'react-add-to-homescreen';
+
 import './App.scss';
 
 class App extends Component {
@@ -24,6 +26,7 @@ class App extends Component {
             />
           </Switch>
         </Router>
+        <AddToHomescreen />
       </div>
     );
   }
