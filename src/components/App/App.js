@@ -9,6 +9,10 @@ import AddToHomescreen from 'react-add-to-homescreen';
 import './App.scss';
 
 class App extends Component {
+  handleAddToHomescreen = () => {
+    alert('1. Open Share menu\n2. Tap on "Add to Home Screen" button');
+  };
+
   render() {
     return (
       <div className="App">
@@ -26,7 +30,9 @@ class App extends Component {
             />
           </Switch>
         </Router>
-        <AddToHomescreen />
+        <AddToHomescreen
+          onAddToHomescreenClick={this.handleAddToHomescreen}
+        />
       </div>
     );
   }
